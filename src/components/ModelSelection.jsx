@@ -22,7 +22,7 @@ const ModelSelection = ({ selectedBrand }) => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* ================= HEADER ================= */}
-       <Header />
+       <Header  />
  
       {/* ================= MAIN ================= */}
       <main className="flex-1 max-w-7xl mx-auto px-6 py-6 w-full">

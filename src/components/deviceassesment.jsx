@@ -120,7 +120,7 @@ export default function DeviceAssessmentForm() {
 
   return (
     <div>  {/* Header */}
-       <Header simple />
+       <Header  />
 
 
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-4 md:p-8">
@@ -262,7 +262,7 @@ export default function DeviceAssessmentForm() {
               </div>
               <div>
                 <h2 className="text-xl font-bold text-gray-800">Device Images</h2>
-                <p className="text-sm text-gray-600">Upload clear photos of your device (required)</p>
+                <p className="text-sm text-gray-600">Upload clear photos of your device (Optional)</p>
               </div>
             </div>
 

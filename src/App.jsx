@@ -14,6 +14,8 @@ import OfferAcceptancePage from './components/acceptRejectOffer';
 import NotFound from './components/NotFound'; // import your 404 Not Found component
 import RejectionPage from './components/NotAccepted'; // import your rejection page
 import CarrierSelection from './components/Phonecarrier';
+import ContactUs from './components/ContactUs';
+import AboutUs from './components/About';
 
 
 function App() {
@@ -35,6 +37,8 @@ function App() {
         <Route path="/notaccepted" element={<RejectionPage />} />
         <Route path="/carrierselection" element={<CarrierSelection />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/About" element={<AboutUs />} />
 
         
 

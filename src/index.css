@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+/* add animation for main screen  */
+@keyframes floatSmooth {
+  0% {
+    transform: translateY(0px) rotate(3deg);
+  }
+  50% {
+    transform: translateY(-14px) rotate(3deg);
+  }
+  100% {
+    transform: translateY(0px) rotate(3deg);
+  }
+}
+
+@keyframes colorFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-phone-card {
+  background-size: 400% 400%;
+  animation:
+    floatSmooth 7s ease-in-out infinite,
+    colorFlow 12s ease-in-out infinite;
+}
+
+
+/* end here  */

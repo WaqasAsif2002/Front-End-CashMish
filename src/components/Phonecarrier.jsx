@@ -19,7 +19,7 @@ export default function CarrierSelection() {
 
   return (
     <div>  {/* Header */}
-        <Header simple />
+        <Header  />
 
 
 <div className="bg-gray-50 flex items-center justify-center px-4 py-8">
